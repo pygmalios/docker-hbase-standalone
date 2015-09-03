@@ -9,6 +9,6 @@
   </property>
   <property>
     <name>hbase.zookeeper.quorum</name>
-    <value>dev.banno.com</value>
+    <value>hbase.pyg.pygmalios.svc.tutum.io</value>
   </property>
 </configuration>
