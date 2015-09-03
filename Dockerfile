@@ -19,7 +19,7 @@ RUN \
 RUN mkdir /opt/hbase
 RUN wget -q https://github.com/Banno/docker-hbase-standalone/raw/master/hbase-0.94.15-cdh4.7.0.tar.gz -O /opt/hbase/hbase-0.94.15-cdh4.7.0.tar.gz
 RUN cd /opt/hbase && tar xfvz hbase-0.94.15-cdh4.7.0.tar.gz
-ADD hbase-site.xml /etc/hbase/conf/hbase-site.xml
+ADD hbase-site.xml /opt/hbase/hbase-0.94.15-cdh4.7.0/conf/hbase-site.xml
 
 # need this for hbase to run
 ENV JAVA_HOME /usr
