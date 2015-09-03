@@ -35,4 +35,7 @@ EXPOSE 60020
 # HBase Regionserver web UI
 EXPOSE 60030
 
+# Add HBASE to path
+ENV PATH /opt/hbase/hbase-0.94.15-cdh4.7.0/bin:$PATH
+
 CMD /opt/hbase/hbase-0.94.15-cdh4.7.0/bin/hbase master start
