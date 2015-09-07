@@ -19,4 +19,8 @@
     <name>hbase.zookeeper.quorum</name>
     <value>hbase.pyg.pygmalios.svc.tutum.io</value>
   </property>
+  <property>
+    <name>hbase.master</name>
+    <value>hbase.pyg.pygmalios.svc.tutum.io</value>
+  </property>
 </configuration>
