@@ -4,10 +4,6 @@
     <value>file:///hbase</value>
   </property>
   <property>
-    <name>hbase.cluster.distributed</name>
-    <value>true</value>
-  </property>
-  <property>
     <name>hbase.zookeeper.property.dataDir</name>
     <value>/zookeeper</value>
   </property>
