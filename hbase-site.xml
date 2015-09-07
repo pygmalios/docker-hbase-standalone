@@ -21,6 +21,10 @@
   </property>
   <property>
     <name>hbase.master</name>
-    <value>hbase.pyg.pygmalios.svc.tutum.io</value>
+    <value>hbase.pyg.pygmalios.svc.tutum.io:60000</value>
+  </property>
+   <property>
+    <name>hbase.regionserver</name>
+    <value>hbase.pyg.pygmalios.svc.tutum.io:60020</value>
   </property>
 </configuration>
