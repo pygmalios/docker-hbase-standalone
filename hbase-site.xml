@@ -20,11 +20,23 @@
     <value>hbase.pyg.pygmalios.svc.tutum.io</value>
   </property>
   <property>
-    <name>hbase.master</name>
-    <value>hbase.pyg.pygmalios.svc.tutum.io:60000</value>
+    <name>hbase.master.ipc.address</name>
+    <value>172.17.0.36</value>
   </property>
-   <property>
-    <name>hbase.regionserver</name>
-    <value>hbase.pyg.pygmalios.svc.tutum.io:60020</value>
+  <property>
+    <name>hbase.regionserver.ipc.address</name>
+    <value>172.17.0.36</value>
+  </property>
+  <property>
+    <name>hbase.master.dns.interface</name>
+    <value>default</value>
+  </property>
+  <property>
+    <name>hbase.regionserver.dns.interface</name>
+    <value>default</value>
+  </property>
+  <property>
+    <name>hbase.zookeeper.dns.interface</name>
+    <value>default</value>
   </property>
 </configuration>
