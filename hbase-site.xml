@@ -8,6 +8,10 @@
     <value>/zookeeper</value>
   </property>
   <property>
+  <name>hbase.cluster.distributed</name>
+  <value>true</value>
+</property>
+  <property>
     <name>hbase.master.port</name>
     <value>60000</value>
   </property>
